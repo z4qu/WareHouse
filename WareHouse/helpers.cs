@@ -10,7 +10,7 @@ public class helpers
         return number;
     }
 
-    public enum ItemTypes
+    public enum ItemType
     {
         Grocery,
         Clothing,
