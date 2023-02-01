@@ -1,9 +1,8 @@
 ﻿namespace Warehouse;
-{
+
     public class Item
     {
-        public int Id { get; get; }
-    
-        public string Name { get; get; }
-    } 
-}
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+    }

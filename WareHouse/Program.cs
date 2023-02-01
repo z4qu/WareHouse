@@ -7,7 +7,7 @@ namespace Warehouse
     {
         
         //Stała
-        public const string FILE_NAME = "C:\\Warehousefiles\\ImportFile.xlsx";
+        public const string FILE_NAME = @"C:\Warehousefiles\ImportFile.xlsx"; // '@' program nie czyta zanków specjalnych
         
         static void Main(string[] args)
         {
@@ -36,16 +36,9 @@ namespace Warehouse
             helpers.ItemType chosenCategory;
             
             Enum.TryParse(category, out chosenCategory);
-
-
-            Item item = new Item() { Id = 1, Name = "Apple" };
-
-            int a = 5;
-            int b = a;
             
-            Console.WriteLine(a);
-            Console.WriteLine(b);
 
+ 
         }
     }
 }
